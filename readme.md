@@ -24,4 +24,4 @@ We are in the midst of planning the event.  There is new information on a weekly
 
 - [Offical DevOpsDays Site](https://www.devopsdays.org/)
 - [Tampa - DevOpsDays SubSite](https://www.devopsdays.org/events/2019-tampa/welcome)
-- [Tampa - DevOpsDays SubSite | Organizers](https://www.devopsdays.org/events/2019-tampa/contact)
+- [Tampa - DevOpsDays SubSite - Organizers](https://www.devopsdays.org/events/2019-tampa/contact)
