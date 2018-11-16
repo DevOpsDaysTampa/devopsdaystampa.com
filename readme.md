@@ -1,4 +1,4 @@
-# https://devopsdaystampa.com #
+![Image of Logo](https://gallery.mailchimp.com/474271ce5a886070ff16100c8/images/db3701e8-e12d-40e9-b12c-3cb56e136045.png)
 
 ## $ tapctl devopsdays-tampa --set freaking.awesome=true ##
 
