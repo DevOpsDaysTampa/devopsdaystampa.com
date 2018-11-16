@@ -13,7 +13,7 @@ We are in the midst of planning the event.  There is new information on a weekly
 
 #### Finalizing ####
 - The Date: Shooting for late April, 2019
-- The Length: 2 days (Thursday & Friday of a week(
+- The Length: 2 days (Thursday & Friday of a week)
 - Venue Selction: Area will be Downtown St. Petersburg
 
 #### About to Start ####
