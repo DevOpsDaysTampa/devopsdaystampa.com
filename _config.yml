@@ -11,14 +11,13 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Head
 metaKeywords: "event, devops, cicd, development, operations"
 twitterAccount: "@DevOpsDaysTampa"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-#  - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/blog/", text: "Blog"}
 #  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/speakers/", text: "Speakers"}
 #  - {permalink: "/team/", text: "Team"}
@@ -31,13 +30,13 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "DevOpsDays <typeout> Tampa - 2019"
-eventDate: "Comming Soon"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
-# heroButtons:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-#  - {permalink: "/#tickets", text: "Buy tickets"}
+heroTitle: "DevOpsDays <typeout> - 2019"
+eventDate: "Coming Soon"
+typeoutTextValues: '"", "Tampa", "Bay", "Area", "USA"'
+typeoutFallback: "Tampa"
+heroButtons:
+      - {link: "https://eepurl.com/dNIFQQ", text: "Become a Volunteer"}
+      - {link: "https://eepurl.com/dNKngY", text: "Become a Sponsor"}
 
 
 
