@@ -44,10 +44,10 @@ title: "DevOpsDays Tampa - 2019"
 # email: "devfest@gdg.org.ua"
 description: "DevOpsDays is a set of events all around the world."
 baseurl: ""
-url: "https://devopsdaystampabay.com"
+url: "https://www.devopsdaystampabay.com"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "devopsdaystampabay.com"
+googleAnalyticsTrackingId: "UA-129800645-1"
+googleAnalyticsSiteUrl: "www.devopsdaystampabay.com"
 siteVerification: ""
 
 # # Organizer Info
