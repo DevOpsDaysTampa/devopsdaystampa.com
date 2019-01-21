@@ -131,43 +131,59 @@ siteVerification: ""
 # subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 # subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
-# # Tickets Block
-# ticketsTitle: "Pricetable"
-# ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
-# ticketsOffers:
-#  -
-#   name: "Early Bird"
-#   price: "350"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "150"
+# Tickets Block
+sponsorshipTitle: "Sponsorship Packages"
+sponsorshipInfo: "Become part of this first annual DevOpsDays Tampa."
+sponsorshipOffers:
+ -
+  name: "Diamond"
+  price: "$7500"
+  priceCurrency: "USD"
+  sponsorshipNumber: "2"
 #   ribbon: "-5%"
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Diamond%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Diamond%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Diamond%20Sponsor"
+  buyButtonText: "Let's Commit"
+  sponsorshipContentList: [
+        "20 Conference Passes",
+        "5 min. pitch to full audiecene",
+        "6ft. Table",
+        "Logo on: Website, Intermission Slides, Event Posters, Speaker Cover Slides",
+        "Only 2 Diamond Available"
+        ]
+  featured: true
 #   validFrom: "2014-08-25T10:00"
 #   validThrough: "2014-09-30T23:59"
-#  -
-#   name: "Last Chance"
-#   price: "450"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "100"
+ -
+  name: "Platinum"
+  price: "$2500"
+  priceCurrency: "USD"
+  sponsorshipNumber: "8"
 #   ribbon: "-20%"
 #   featured: true
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Platinum%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Platinum%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Platinum%20Sponsor"
+  buyButtonText: "Go Platinum"
+  sponsorshipContentList: [
+        "5 Conference Passes",
+        "6ft. Table",
+        "Logo on: Website, Intermission Slides, Event Posters",
+        "Only 8 Platinum Available"
+        ]
 #   validFrom: "2014-10-01T00:00"
 #   validThrough: "2014-10-23T23:59"
 #   disabled: true
-#  -
-#   name: "Student"
-#   price: "200"
-#   priceCurrency: "UAH"
-#   ticketsNumber: "50"
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+ -
+  name: "Gold"
+  price: "$750"
+  priceCurrency: "USD"
+  sponsorshipNumber: "Unlimited"
+  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Gold%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Gold%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Gold%20Sponsor"
+  buyButtonText: "Go For Gold"
+  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+  sponsorshipContentList: [
+        "2 Conference Passes",
+        "Logo on: Website, Intermission Slides",
+        "Unlimited Availibilty!"
+        ]
 #   validFrom: "2014-08-20T10:00"
 #   validThrough: "2014-10-23T23:59"
 #   soldOut: true
