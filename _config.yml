@@ -17,6 +17,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+ - {permalink: "/sponsorships", text: "Sponsorships"}
 # - {permalink: "/blog/", text: "Blog"}
 #  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/speakers/", text: "Speakers"}
@@ -24,9 +25,9 @@ navigationLinks:
 #  - {permalink: "/logistics/", text: "Logistics"}
 #  - {permalink: "/hackathon/", text: "Hackathon"}
 # bottomNavigationLinks:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#  - {link: "https://eepurl.com/dNKngY", text: "Become a Sponsor"}
 # rightNavigationButtons:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#  - {link: "https://eepurl.com/dNKngY", text: "Become a Sponsor"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -36,19 +37,17 @@ typeoutTextValues: '"", "Tampa", "Bay", "Area", "USA"'
 typeoutFallback: "Tampa"
 heroButtons:
       - {link: "https://eepurl.com/dNIFQQ", text: "Become a Volunteer"}
-      - {link: "https://eepurl.com/dNKngY", text: "Become a Sponsor"}
-
-
+      - {link: "http://eepurl.com/dNJbhA", text: "Subscribe to Mailing List"}
 
 # Site Settings
 title: "DevOpsDays Tampa - 2019"
-email: "devfest@gdg.org.ua"
-description: "DevOpsDays is a set of events all around the world"
-baseurl: ""
-url: "https://devopsdaystampa.com"
+# email: "devfest@gdg.org.ua"
+description: "DevOpsDays is a set of events all around the world."
+baseurl: "devopsdaystampabay.com"
+url: "https://devopsdaystampabay.com"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "devopsdaystampa.com"
+googleAnalyticsSiteUrl: "devopsdaystampabay.com"
 siteVerification: ""
 
 # # Organizer Info
@@ -66,7 +65,7 @@ siteVerification: ""
 
 
 # About Block
-# aboutTitle: "About GDG DevFest"
+# aboutTitle: "About DevOpsDays Tampa Bay"
 # aboutBlock:
 #  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
 #  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
@@ -120,30 +119,33 @@ siteVerification: ""
 # twitterHashTag: "devfest"
 # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
-# # Partners Block
+# Partners Block
 # organizersTitle: "Organizers"
 # partnersTitle: "Partners"
 # partnersC4sponsorsButton: "Become a sponsor"
 
-# # Subscribe Block
+# Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "Subscribe for updates"
-# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+# subscribeAction: "http://eepurl.com/dNJbhA"
+# subscribeInfo: "Registration & call for papers will be open shorly. Number of tickets are limited. Stay tuned!"
 
-# Tickets Block
-sponsorshipTitle: "Sponsorship Packages"
-sponsorshipInfo: "Become part of this first annual DevOpsDays Tampa."
-sponsorshipOffers:
+# Sponsorship Block
+sponsorshipsTitle: "Sponsorship Packages"
+sponsorshipsInfo: "Become part of this first annual DevOpsDays Tampa."
+sponsorshipsButtons: 
+      - { link: "/assets/sponsorships/DevOpsDays Tampa Bay - Sponrship packages - Jan 20.pdf", text: "Download A Sponsorship Prospectus" }
+      - {link: "https://eepurl.com/dNKngY", text: "Join the Sponsor Mailing List"}
+sponsorshipsOffers:
  -
   name: "Diamond"
   price: "$7500"
   priceCurrency: "USD"
-  sponsorshipNumber: "2"
+  sponsorshipsNumber: "2"
 #   ribbon: "-5%"
   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Diamond%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Diamond%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Diamond%20Sponsor"
   buyButtonText: "Let's Commit"
-  sponsorshipContentList: [
+  sponsorshipsContentList: [
         "20 Conference Passes",
         "5 min. pitch to full audiecene",
         "6ft. Table",
@@ -151,41 +153,41 @@ sponsorshipOffers:
         "Only 2 Diamond Available"
         ]
   featured: true
-#   validFrom: "2014-08-25T10:00"
-#   validThrough: "2014-09-30T23:59"
+  validFrom: "2019-01-20T08:00"
+  validThrough: "2019-05-30T17:00"
  -
   name: "Platinum"
   price: "$2500"
   priceCurrency: "USD"
-  sponsorshipNumber: "8"
+  sponsorshipsNumber: "8"
 #   ribbon: "-20%"
 #   featured: true
   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Platinum%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Platinum%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Platinum%20Sponsor"
   buyButtonText: "Go Platinum"
-  sponsorshipContentList: [
+  sponsorshipsContentList: [
         "5 Conference Passes",
         "6ft. Table",
         "Logo on: Website, Intermission Slides, Event Posters",
         "Only 8 Platinum Available"
         ]
-#   validFrom: "2014-10-01T00:00"
-#   validThrough: "2014-10-23T23:59"
+  validFrom: "2019-01-20T08:00"
+  validThrough: "2019-05-30T17:00"
 #   disabled: true
  -
   name: "Gold"
   price: "$750"
   priceCurrency: "USD"
-  sponsorshipNumber: "Unlimited"
+  sponsorshipsNumber: "Unlimited"
   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Gold%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Gold%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Gold%20Sponsor"
   buyButtonText: "Go For Gold"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  sponsorshipContentList: [
+  sponsorshipsContentList: [
         "2 Conference Passes",
         "Logo on: Website, Intermission Slides",
         "Unlimited Availibilty!"
         ]
-#   validFrom: "2014-08-20T10:00"
-#   validThrough: "2014-10-23T23:59"
+  validFrom: "2014-08-20T10:00"
+  validThrough: "2014-10-23T23:59"
 #   soldOut: true
 #   soldOutText: "Sold Out"
 
