@@ -43,7 +43,7 @@ heroButtons:
 title: "DevOpsDays Tampa - 2019"
 # email: "devfest@gdg.org.ua"
 description: "DevOpsDays is a set of events all around the world."
-baseurl: "devopsdaystampabay.com"
+baseurl: ""
 url: "https://devopsdaystampabay.com"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
