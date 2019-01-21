@@ -1,0 +1,39 @@
+<!-- Begin sponsorships Section -->
+<section id="sponsorships" class="sponsorships">
+	<div class="content-wrapper">
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+			<h3>{{ site.sponsorshipsTitle }}</h3>
+            {% for sponsorshipsOffer in site.sponsorshipsOffers %}
+	            {% assign colWidth = 12 | divided_by: forloop.length %}
+	            {% assign check = forloop.index | modulo:2 %}
+	            <div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if sponsorshipsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+	            	{% if sponsorshipsOffer.ribbon != null %}<div class="pricing-ribbon">{{ sponsorshipsOffer.ribbon }}</div>{% endif %}
+					<div class="pricing-header">
+						<p class="title">{{ sponsorshipsOffer.name }}</p>
+						<p class="price">{{ sponsorshipsOffer.price }} <span class="currency">{{ sponsorshipsOffer.priceCurrency }}</span></p>
+					</div>
+					<div class="pricing-content">
+						<ul>
+							{% for listItem in sponsorshipsOffer.sponsorshipsContentList %}
+							<li>{{ listItem }}</li>
+							{% endfor %}
+						</ul>
+						{% if sponsorshipsOffer.soldOut == true %}
+						<span class="button disabled">{{ sponsorshipsOffer.soldOutText }}</span>
+						{% elsif sponsorshipsOffer.disabled != true %}
+						<a class="button" href="{{ sponsorshipsOffer.buyButtonLink }}" target="_blank">{{ sponsorshipsOffer.buyButtonText }}</a>
+						{% else %}
+		           		{% assign sponsorshipsValidFrom = sponsorshipsOffer.validFrom | split: "T" %}
+						<span class="button disabled fallback">Sponsorship sales will begin on {{ sponsorshipsValidFrom[0] | date: "%-d %B %Y"}} {{ sponsorshipsValidFrom[1] }}</span>
+						{% endif %}
+					</div>
+				</div>
+            {% endfor %}
+		</div>
+		{% for button in site.sponsorshipsButtons %}
+		<a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+		{% endfor %}
+	</div>
+
+</section>
+<!-- End sponsorships Section -->
