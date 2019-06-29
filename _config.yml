@@ -19,6 +19,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/sponsorships", text: "Sponsorships"}
  - {permalink: "https://twitter.com/dodtampabay", text: "Twitter"}
+ - {permalink: "https://www.linkedin.com/company/40652911/", text: "LinkedIn"}
 #       - {link: "https://twitter.com/dodtampabay", text: "Follow us on twitter"}
 #  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/speakers/", text: "Speakers"}
