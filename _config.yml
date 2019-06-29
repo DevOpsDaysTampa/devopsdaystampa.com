@@ -18,7 +18,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/sponsorships", text: "Sponsorships"}
- - {permalink: "/twitter/", text: "Twitter"}
+ - {permalink: "https://twitter.com/dodtampabay", text: "Twitter"}
 #       - {link: "https://twitter.com/dodtampabay", text: "Follow us on twitter"}
 #  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/speakers/", text: "Speakers"}
