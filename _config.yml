@@ -37,7 +37,7 @@ navigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "DevOps Days Tampa Bay <typeout>"
-eventDate: "June 2019"
+eventDate: "June 2020"
 typeoutTextValues: '"", "Tampa", "Bay", "Area", "USA"'
 typeoutFallback: "Tampa"
 # heroButtons:
