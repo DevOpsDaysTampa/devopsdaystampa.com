@@ -9,8 +9,8 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Head
-metaKeywords: "event, devops, cicd, development, operations"
-twitterAccount: "@DevOpsDaysTampa"
+metaKeywords: "event, devops, cicd, development, operations, devsecops, devopsdays, dodtampabay"
+twitterAccount: "@dodtampabay"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
@@ -18,34 +18,35 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/sponsorships", text: "Sponsorships"}
-# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/twitter/", text: "Twitter"}
+       - {link: "https://twitter.com/dodtampabay", text: "Follow us on twitter"}
 #  - {permalink: "/schedule/", text: "Schedule"}
 #  - {permalink: "/speakers/", text: "Speakers"}
 #  - {permalink: "/team/", text: "Team"}
 #  - {permalink: "/logistics/", text: "Logistics"}
+#       - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
+#       - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
+#       - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
+# bottomNavigationLinks:
+# rightNavigationButtons:
+#       - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
+#       - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
+#       - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
 #  - {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
-      - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
-      - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
-      - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
-rightNavigationButtons:
-      - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
-      - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
-      - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
 
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "DevOps Days Tampa Bay <typeout>"
-eventDate: "June 7th, 2019"
+eventDate: "June 2019"
 typeoutTextValues: '"", "Tampa", "Bay", "Area", "USA"'
 typeoutFallback: "Tampa"
-heroButtons:
-      - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
-      - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
-      - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
+# heroButtons:
+#       - {link: "https://devopsdaystampabay2019.eventbrite.com", text: "Buy Tickets"}
+#       - {link: "https://www.papercall.io/dodtampabay", text: "Become a Speaker"}
+#       - {link: "https://www.devopsdays.org/events/2019-tampa/sponsor/", text: "Become a Sponsor"}
 
 # Site Settings
-title: "DevOps Days Tampa Bay - 2019"
+title: "DevOps Days Tampa Bay - 2020"
 # email: "devfest@gdg.org.ua"
 description: "DevOpsDays is a set of events all around the world."
 baseurl: ""
@@ -95,19 +96,19 @@ c4sponsorsUrl: "/assets/sponsorships/DevOpsDays Tampa Bay - Sponrship packages -
 
 # # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Nielsen Global Technology and Innovation Center"
-eventLocationLink: "https://goo.gl/maps/wWnnP9Xtcan"
-eventStreetAddress: "501 Brooker Creek Blvd."
-eventAddressLocality: "Oldsmar"
+eventLocationName: "TBD"
+# eventLocationLink: ""
+# eventStreetAddress: ""
+eventAddressLocality: "Tampa"
 eventAddressLocalityRegion: "Florida"
-eventPostalCode: "34677"
+# eventPostalCode: ""
 eventAddressCountry: "USA"
-eventStartTime: "2019-06-07T09:00"
-eventDoorTime: "08:00"
-eventEndTime: "2019-06-07T17:00"
-eventPlaceCoordinates: "-82.6552577, 28.0485526"
-mapCenterCoordinates: "-82.6552577, 28.0485526"
-mapMobileCenterCoordinates: "-82.6552577, 28.0485526"
+# eventStartTime: "2019-06-07T09:00"
+# eventDoorTime: "08:00"
+# eventEndTime: "2019-06-07T17:00"
+# eventPlaceCoordinates: "-82.6552577, 28.0485526"
+# mapCenterCoordinates: "-82.6552577, 28.0485526"
+# mapMobileCenterCoordinates: "-82.6552577, 28.0485526"
 #"-82.6552577, 28.0485526"
 #"28.0485526, -82.6552577"
 
@@ -141,59 +142,59 @@ subscribeAction: "http://eepurl.com/dNJbhA"
 sponsorshipsTitle: "Sponsorship Packages"
 sponsorshipsInfo: "Become part of this first annual DevOpsDays Tampa."
 sponsorshipsButtons: 
-      - { link: "/assets/sponsorships/DevOpsDays Tampa Bay - Sponrship packages - Jan 20.pdf", text: "Download A Sponsorship Prospectus" }
-sponsorshipsOffers:
- -
-  name: "Diamond"
-  price: "$7500"
-  priceCurrency: "USD"
-  sponsorshipsNumber: "2"
-#   ribbon: "-5%"
-  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Diamond%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Diamond%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Diamond%20Sponsor"
-  buyButtonText: "Let's Commit"
-  sponsorshipsContentList: [
-        "20 Conference Passes",
-        "5 min. pitch to full audiecene",
-        "6ft. Table",
-        "Logo on: Website, Intermission Slides, Event Posters, Speaker Cover Slides",
-        "Only 2 Diamond Available"
-        ]
-  featured: true
-  validFrom: "2019-01-20T08:00"
-  validThrough: "2019-05-30T17:00"
- -
-  name: "Platinum"
-  price: "$2500"
-  priceCurrency: "USD"
-  sponsorshipsNumber: "8"
-#   ribbon: "-20%"
+      - { link: "/assets/sponsorships/DevOpsDays Tampa Bay - Sponrship packages - Jan 20.pdf", text: "Download A Sponsorship Prospectus from 2019" }
+# sponsorshipsOffers:
+#  -
+#   name: "Diamond"
+#   price: "$7500"
+#   priceCurrency: "USD"
+#   sponsorshipsNumber: "2"
+# #   ribbon: "-5%"
+#   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Diamond%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Diamond%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Diamond%20Sponsor"
+#   buyButtonText: "Let's Commit"
+#   sponsorshipsContentList: [
+#         "20 Conference Passes",
+#         "5 min. pitch to full audiecene",
+#         "6ft. Table",
+#         "Logo on: Website, Intermission Slides, Event Posters, Speaker Cover Slides",
+#         "Only 2 Diamond Available"
+#         ]
 #   featured: true
-  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Platinum%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Platinum%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Platinum%20Sponsor"
-  buyButtonText: "Go Platinum"
-  sponsorshipsContentList: [
-        "5 Conference Passes",
-        "6ft. Table",
-        "Logo on: Website, Intermission Slides, Event Posters",
-        "Only 8 Platinum Available"
-        ]
-  validFrom: "2019-01-20T08:00"
-  validThrough: "2019-05-30T17:00"
+#   validFrom: "2019-01-20T08:00"
+#   validThrough: "2019-05-30T17:00"
+#  -
+#   name: "Platinum"
+#   price: "$2500"
+#   priceCurrency: "USD"
+#   sponsorshipsNumber: "8"
+# #   ribbon: "-20%"
+# #   featured: true
+#   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Platinum%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Platinum%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Platinum%20Sponsor"
+#   buyButtonText: "Go Platinum"
+#   sponsorshipsContentList: [
+#         "5 Conference Passes",
+#         "6ft. Table",
+#         "Logo on: Website, Intermission Slides, Event Posters",
+#         "Only 8 Platinum Available"
+#         ]
+#   validFrom: "2019-01-20T08:00"
+#   validThrough: "2019-05-30T17:00"
 #   disabled: true
- -
-  name: "Gold"
-  price: "$750"
-  priceCurrency: "USD"
-  sponsorshipsNumber: "Unlimited"
-  buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Gold%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Gold%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Gold%20Sponsor"
-  buyButtonText: "Go For Gold"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  sponsorshipsContentList: [
-        "2 Conference Passes",
-        "Logo on: Website, Intermission Slides",
-        "Unlimited Availibilty!"
-        ]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
+#  -
+#   name: "Gold"
+#   price: "$750"
+#   priceCurrency: "USD"
+#   sponsorshipsNumber: "Unlimited"
+#   buyButtonLink: "mailto:organizers-tampa-2019@devopsdays.org?subject=Gold%20Sponsorship&body=Dear%20Organizers%2C%0A%0AWe%20would%20like%20to%20be%20a%20Gold%20Sponsor!%20%20What%20is%20the%20best%20way%20to%20send%20you%20funds%20and%20who%20should%20we%20coordinate%20with%20for%20artwork%20and%20event%20logistics%3F%0A%0ACheers%2C%0AYour%20Gold%20Sponsor"
+#   buyButtonText: "Go For Gold"
+#   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+#   sponsorshipsContentList: [
+#         "2 Conference Passes",
+#         "Logo on: Website, Intermission Slides",
+#         "Unlimited Availibilty!"
+#         ]
+#   validFrom: "2014-08-20T10:00"
+#   validThrough: "2014-10-23T23:59"
 #   soldOut: true
 #   soldOutText: "Sold Out"
 
