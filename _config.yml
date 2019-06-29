@@ -123,7 +123,7 @@ mapMobileCenterCoordinates: "-82.6552577, 28.0485526"
 # # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "DevOpsDaysTampa"
+twitterHashTag: "dodtampabay"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
