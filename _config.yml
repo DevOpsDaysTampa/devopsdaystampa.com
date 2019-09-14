@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Head
 metaKeywords: "event, devops, cicd, development, operations, devsecops, devopsdays, dodtampabay"
-twitterAccount: "@dodtampabay"
+twitterAccount: "@devopsdaystb"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
